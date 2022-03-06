@@ -1,0 +1,57 @@
+body {
+    background-color: #ffffff;
+    height: 100%;
+}
+main {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2 {
+    color: #5d40fc;
+}
+/**** IDs ****/
+#main-container {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+#intro-text {
+    padding-top: 55px;
+}
+#prof-img-2 {
+    display: none;
+}
+#prof-img-container:hover #prof-img-1 {
+    display: none;
+}
+#prof-img-container:hover #prof-img-2 {
+    display: block;
+}
+#resume-link {
+    color: #5d40fc !important
+}
+#social-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#social-container a svg{
+    color: black;
+    margin: 0 5px 0 5px;
+}
+#social-container a svg:hover {
+    color: #5d40fc;
+}
+/**** Classes ****/
+.iwt{
+    display:block;
+}
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #5d40fc !important;
+    border: #5d40fc !important
+}
+.card-body {
+    border-top: 2px solid #5d40fc;
+}
+.card-footer div a {
+    color: #5d40fc !important;
+}
