@@ -42,6 +42,25 @@ h2 {
     color: #5d40fc;
 }
 /**** Classes ****/
+/* Navbar links */
+.navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+/* Navbar links on mouse-over */
+.navbar a:hover {
+    color: #5d40fc !important;
+}
+a.dropdown-item {
+    padding-left: 25px;
+}
+.dropdown-item:hover {
+    color: #1e2125;
+    background-color: #e9ecef;
+}
 .iwt{
     display:block;
 }
@@ -55,3 +74,12 @@ h2 {
 .card-footer div a {
     color: #5d40fc !important;
 }
+
+/*
+@media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+}
+*/
