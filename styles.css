@@ -1,6 +1,5 @@
 body {
     background-color: #ffffff;
-    height: 100%;
 }
 main {
     width: 80%;
@@ -75,11 +74,12 @@ a.dropdown-item {
     color: #5d40fc !important;
 }
 
-/*
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 576px) {
     .navbar a {
-      float: none;
-      display: block;
+        padding: 10px 0;
+      }
+      a.dropdown-item {
+        padding-left: 25px;
     }
 }
-*/
+
