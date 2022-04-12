@@ -14,6 +14,9 @@ h2 {
     margin-top: 10%;
     margin-bottom: 10%;
 }
+#nav-logo {
+    width: 45px;
+}
 #intro-text {
     padding-top: 55px;
 }
@@ -43,7 +46,7 @@ h2 {
 /**** Classes ****/
 /* Navbar links */
 .navbar a {
-    float: left;
+    float: right;
     padding: 12px;
     color: white;
     text-decoration: none;
@@ -72,6 +75,14 @@ a.dropdown-item {
 }
 .card-footer div a {
     color: #5d40fc !important;
+}
+.card {
+    min-height: 410px
+}
+.divider-logo {
+    width: 55px;
+    margin: 0 50%;
+    opacity: .5;
 }
 
 @media screen and (max-width: 576px) {
