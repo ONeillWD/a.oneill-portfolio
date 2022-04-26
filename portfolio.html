@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home - A.ONeill</title>
+  <title>Portfolio - A.ONeill</title>
   <link rel="icon" href="./images/logo-symbol.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -48,15 +48,30 @@
 
     <main>
         <div id="main-container" class="container">
-            <h1 class="text-center" style="padding-bottom: 30px;">Here&#39;s some of my recent work</h2>
+            <h1  style="margin-bottom: 10px;">Welcome to my portfolio</h1>
+            
+            <!--Jump to links-->
+            <div class="quick-links">
+              <p style="display: inline" >Jump to: </p>
+
+              <a href="#front-end">Front-end Design & Development</a>
+              <span> | </span>
+              <a href="#ui-ux">UI & UX Design</a>
+              <span> | </span>
+              <a href="#marketing">Digital & Content Marketing</a>
+
+            </div>
+            
+
+            <!--FRONT END DESIGN & DEV-->
+            <h2 id="portfolio-subheader">Front-end Design & Development</h2>
             <div class="row row-cols-1 row-cols-md-3 g-4">
-                <!--Card 1-->
-                <div class="col">
+                <!--Card 1 VisitSF-->
+                <div class="col" id="front-end" >
                     <div class="card">
                       <img src="portfolio-images/visit-sf-wordpress.png" class="card-img-top" alt="Travel website example">
                       <div class="card-body">
-                        <h5 class="card-title">Travel - Visit San <br>Francisco</h5>
-                        
+                        <h5 class="card-title">Travel - Visit San Francisco</h5>
                       <p class="card-text text-muted">WordPress.org</p>
                       </div>
                       <!--Footer-->
@@ -69,8 +84,8 @@
                         </div>
                     </div>
                   </div>
-                  <!--Card 2-->
-                <div class="col">
+                  <!--Card 2 Huddle-->
+                <div class="col"> 
                     <div class="card">
                       <img src="portfolio-images/huddle-landing-page.png" class="card-img-top" alt="Huddle landing page example">
                       <div class="card-body">
@@ -87,7 +102,7 @@
                               <!--Github link-->
                               <div class="col-1">
                                   <a href="https://github.com/ONeillWD/huddle-landing-page" class="text-muted justify-content-end" target="_blank">
-                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"  fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
                                           <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
                                         </svg>
                                   </a>
@@ -97,7 +112,7 @@
                     </div>
                   </div>
 
-                  <!--card 1-->
+                  <!--card 3 Pleasure Island-->
                 <div class="col">
                   <div class="card">
                     <img src="portfolio-images/pleasure-island.png" class="card-img-top" alt="Pleasure island NC bootstrap example">
@@ -124,7 +139,7 @@
                   </div>
                 </div>
                 
-                <!--Card-2-->
+                <!--Card-4 couchtour.tv-->
                 <div class="col">
                     <div class="card">
                       <img src="portfolio-images/couchtour-tv-wordpress.png" class="card-img-top" alt="Online live video stream wordpress website example">
@@ -143,8 +158,7 @@
                     </div>
                   </div>
                 
-                <!--card 3-->
-                <!--Card 4-->
+                <!--card 5 Sinlge Grid Component-->
                 <div class="col">
                   <div class="card">
                     <img src="portfolio-images/single-price-grid-component.png" class="card-img-top" alt="Single price grid component example">
@@ -170,6 +184,8 @@
                       </div>
                   </div>
                 </div>
+
+                <!--Card 6 Four Card Feature-->
                 <div class="col">
                     <div class="card">
                       <img src="portfolio-images/four-card-feature.png" class="card-img-top" alt="Four card feature example">
@@ -196,14 +212,66 @@
                     </div>
                   </div>
                   
+            </div>
+            <!--** END **-->
+            
+            <p  id="ui-ux"></p>
+            <!--UI & UX DESIGN-->
+            <h2 id="portfolio-subheader" class="portfolio-subheaders">UI & UX Design</h2>
+            <div class="row row-cols-1 row-cols-md-4 g-6">
+              <!--Card 1 HW Hero Prototype-->
+              <div class="col">
+                <div id="ui-ux-cards" class="card">
+                  <img id="hw-hero-logo" src="./images/icons/icon-hw-hero-logo.png" class="card-img-top" alt="Homework Hero Logo">
+                  <div class="card-body">
+                    <h5 class="card-title">Homework Hero</h5>
+                    <p>iOS Application</p>
+                  </div>
+                  <!--Footer-->
+                  <div class="card-footer">
+                      <div class="row justify-content-between">
+                          <div class="col-8">
+                            <a href="https://xd.adobe.com/view/8a3d8235-ee61-4487-49c8-1f21122541be-fc0c/" target="_blank">Prototype</a>
+                          </div>
+                      </div>
+                    </div>
+                </div>
               </div>
+            </div>
+
+            
+
+            <!--DIGITAL & CONTENT MARKETING-->
+            <h2 id="portfolio-subheader" class="portfolio-subheaders">Digital & Content Marketing</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <!--Card 1 PR Release-->
+              <div class="col" id="marketing">
+                <div id="marketing-cards" class="card">
+                  <img style="backdrop-filter: blur(5px);" src="portfolio-work/marketing/pr-release.jpg" class="card-img-top" alt="Travel website example">
+                  <div class="card-body">
+                    <h5 class="card-title">Public Relations Release</h5>
+                  </div>
+                  <!--Footer-->
+                  <div class="card-footer">
+                      <div class="row justify-content-between">
+                          <div class="col-6">
+                            <a href="./portfolio-work/marketing/pr-release.pdf" target="_blank">View</a>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+ 
+            </div>
+            <!--** END **-->
+
+
         </div>
     </main>
     <footer class="bg-light text-lg-start">
         <!-- Copyright -->
         <div class=" col text-center p-4" style="background-color: rgba(0, 0, 0, 0.2);">
-          © 2022 Copyright:
-          <a class="text-dark" href="https://a.oneill.com/">A.ONeill.com</a>
+          <a class="text-dark" href="https://a.oneill.com/">By: Aidan ONeill - A.ONeill.com</a>
   
           <!--Icons-->
           <div id="social-container">

@@ -23,14 +23,33 @@ p {
 nav {
     font-weight: 300;
 }
+footer {
+    padding-top: 15px;
+}
+
 
 /**** IDs ****/
+
 #main-container {
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 #nav-logo {
     width: 45px;
+    animation: rotation 20s infinite linear;
+    box-shadow: #000;
+}
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+#contact-logo {
+    animation: rotation 100s infinite linear;
 }
 #intro-text {
     padding-top: 55px;
@@ -44,8 +63,17 @@ nav {
 #prof-img-container:hover #prof-img-2 {
     display: block;
 }
-#resume-link {
-    color: #5d40fc !important
+#resume-links-container {
+    text-align: center;
+}
+#resume-links {
+    color: #5d40fc !important;
+    font-size: 1.3rem;
+    font-weight: 300;
+    width: 50%; 
+}
+#resume-links:hover {
+    color: #846eff !important;
 }
 #social-container {
     padding-top: 30px;
@@ -58,6 +86,46 @@ nav {
 #social-container a svg:hover {
     color: #5d40fc;
 }
+#about-header {
+    color: #5d40fc !important;
+}
+#button-effect {
+    border: 3px solid #5d40fc !important;
+}
+#button-effect:hover {
+    background-color: #e9ecef !important;
+    border: 3px solid #5d40fc !important;
+    color: #5d40fc !important;
+}
+#about-icons {
+    width: 30px;
+    margin: 20px 5px 0;
+}
+#about-icon-container {
+    text-align: center;
+}
+#styled-break {
+    background-color: #5c40fc;
+    height: 5px;
+    margin: 20px 0 15%;
+}
+#portfolio-subheader {
+    text-decoration: underline;
+    margin-top: 8%;
+    margin-bottom: 25px;
+    
+}
+#marketing-cards {
+    min-height: 0px;
+}
+#ui-ux-cards {
+    min-height: 0px;
+    width:200px;
+}
+#hw-hero-logo {
+    padding:10px;
+}
+
 /**** Classes ****/
 /* Navbar links */
 .navbar a {
@@ -75,13 +143,16 @@ a.dropdown-item {
     padding-left: 25px;
 }
 .dropdown-item:hover {
-    color: #1e2125;
+    color: #5c40fc;
     background-color: #e9ecef;
+}
+nav a:active {
+    color: #5c40fc;
 }
 .iwt{
     display:block;
 }
-.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+.btn-primary, .btn-primary:active, .btn-primary:visited {
     background-color: #5d40fc !important;
     border: #5d40fc !important
 }
@@ -89,23 +160,74 @@ a.dropdown-item {
     border-top: 2px solid #5d40fc;
 }
 .card-footer div a {
-    color: #5d40fc !important;
+    color: #5c40fc !important;
 }
 .card {
-    min-height: 410px
+    min-height: 410px;
+    box-shadow: 5px 5px 20px #cdcdcd;
 }
 .divider-logo {
     width: 55px;
     margin: 0 50%;
     opacity: .5;
 }
+svg.bi-github {
+    margin-left: -10px;
+}
+.contact-box {
+ padding: 10px 40px;
+}
+.contact-info {
+    background-color:#5c40fc;
+    color: white;
+    font-size: .8rem;
+}
+.contact {
+    color: #000;
+    margin-top: 8px;
+    text-align: center;
+    text-decoration: none !important;
+}
+.contact:hover {
+    color: #5c40fc;
+}
+.quick-links {
+    margin-bottom: 15px;
+}
+.quick-links a{
+    text-align: center;
+    margin-bottom: 5%;
+    color: #5c40fc !important;
+
+}
+.quick-links a:hover {
+    text-align: center;
+    margin-bottom: 5%;
+    color: #9d8df7 !important;
+
+}
+.portfolio-subheaders {
+    margin-top: 10%;
+}
+/*  ***** MEDIA QUERIES ***** **/
 
 @media screen and (max-width: 576px) {
-    .navbar a {
-        padding: 10px 0;
-      }
-      a.dropdown-item {
-        padding-left: 25px;
+    #dropdown-menu  {
+        padding: 1000px;
+    }
+
+}
+@media screen and (max-width: 991px) {
+    #styled-break {
+        height: 5px;
+        margin: 20px 0 5%;
+    }
+    #contact-logo {
+        margin-bottom: 30px;
     }
 }
-
+@media screen and (min-width: 992px) {
+    #contact-header {
+        margin-top: 10px;
+    }
+}

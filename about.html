@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home - A.ONeill</title>
+  <title>About - A.ONeill</title>
   <link rel="icon" href="./images/logo-symbol.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -35,7 +35,7 @@
                 <li><a class="dropdown-item" href="https://aidanoneillweblog.wordpress.com" target="_blank"><i class="fa fa-edit"></i> Blog</a></li>
               </ul>
             </li>
-            <!---->
+            <!--End Dropdown menu-->
             <li class="nav-item">
               <a class="nav-link active" href="about.html"><i class="fa fa-fw fa-user"></i> About</a>
             </li>
@@ -47,36 +47,56 @@
     </div>
   </nav>
 
-    <main>
+  <!--Main-->
+  <main>
         <div id="main-container" class="container">
+          <!-- Image -->
             <div class="row">
                 <div class="col-sm-12 col-lg-6">
                     <div id="prof-img-container">
                         <div id="prof-img-1">
-                            <img src="./images/profile-color-optimized.jpg" alt="Animated web developer working on computer" class="w-75 p-3 mx-auto d-block">
+                            <img src="./images/profile-color-optimized.jpg" alt="A profile head shot of Aidan ONeill" class="w-75 p-3 mx-auto d-block">
                         </div>
                         <div id="prof-img-2">
-                            <img  src="./images/profile-BW-optimized.jpg" alt="Animated web developer working on computer" class="w-75 p-3 mx-auto d-block">
+                            <img  src="./images/profile-BW-optimized.jpg" alt="A profile head shot of Aidan ONeill" class="w-75 p-3 mx-auto d-block">
                         </div>
                     </div>
                 </div>
 
+                <!--About me text section-->
                 <div class="col-sm-12 col-lg-6">
-                    <h2>About Me</h2>
+                    <h1 id="about-header">About Me</h1>
                     <p>Hello,</p>
                     <p>My name is Aidan O&#39;Neill, I am a front-end web developer passionate about creating websites for businesses. I enjoy challenging myself to develop solutions that add to people's lives and make their experiences seamless and intuitive. </p>
-                    <p>I develop websites using HTML/CSS, JavaScript, and Bootstrap. I also have experience using WordPress, Joomla, and Shopify to build eCommerce solutions. I&#39;m always open to working on new projects and learning something new.</p>
+                    <p>I develop websites using HTML/CSS, JavaScript, and Bootstrap. I also have experience using WordPress,WooCommerce, and Joomla to build eCommerce solutions. I&#39;m always open to working on new projects and learning something new.</p>
                     <p>I'm a dedicated person who strives to fulfill his dreams; I&#39;m hardworking, results-oriented, and driven to achieve my goals.</p>
-                    <a id="resume-link" href="./ONeill-Resume.pdf" target="_blank">Resume</a>
+
+                    <!-- Resume Github Linkedin Section-->
+                    <div id="resume-links-container">
+                      <a id="resume-links" href="./ONeill-Resume.pdf" target="_blank">Resume</a>
+                      <span> | </span>
+                      <a id="resume-links" href="https://github.com/ONeillWD" target="_blank">GitHub</a>
+                      <span> | </span>
+                      <a id="resume-links" href="https://www.linkedin.com/in/oneillwd/" target="_blank" >LinkedIn</a>
+                    </div>
+                    <!-- Icons Section -->
+                    <div id="about-icon-container">
+                      <img id="about-icons" src="./images/icons/icon-wordpress.png" alt="css3 symbol">
+                      <img id="about-icons" src="./images/icons/icon-html-5.png" alt="html5 icon">
+                      <img id="about-icons" src="./images/icons/icon-bootstrap.png" alt="bootstrap icon">
+                      <img id="about-icons" src="./images/icons/icon-css-3.png" alt="css3 icon">
+                      <img id="about-icons" src="./images/icons/icon-javascript.png" alt="javascript icon">
+                      
+                    </div>
                 </div> 
             </div>
         </div>
-    </main>
-    <footer class="bg-light text-lg-start">
+  </main>
+    <!--Footer-->
+  <footer class="bg-light text-lg-start">
       <!-- Copyright -->
       <div class=" col text-center p-4" style="background-color: rgba(0, 0, 0, 0.2);">
-        © 2022 Copyright:
-        <a class="text-dark" href="https://a.oneill.com/">A.ONeill.com</a>
+        <a class="text-dark" href="https://a.oneill.com/">By: Aidan ONeill - A.ONeill.com</a>
 
         <!--Icons-->
         <div id="social-container">
@@ -107,7 +127,7 @@
 
       </div>
       
-    </footer>
+  </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

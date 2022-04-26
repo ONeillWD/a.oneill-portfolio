@@ -14,12 +14,24 @@
 </head>
 <body>
     
-  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-sm bg-dark">
     
     <div class="container-fluid">
-      <a class="navbar-brand" href="index.html"><img src="./images/logo-symbol-dark.png" id="nav-logo" alt="A.ONeill Home"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+
+      <a class="navbar-brand" href="index.html">
+        <img src="./images/logo-symbol-dark.png" id="nav-logo" alt="A.ONeill Home">
+      </a>
+
+      <button 
+        class="navbar-toggler" 
+        type="button" 
+        data-bs-toggle="collapse" 
+        data-bs-target="#collapsibleNavbar" aria-controls="navbarTogglerDemo02" 
+        aria-expanded="false" 
+        aria-label="Toggle navigation">
+
+          <span class="navbar-toggler-icon"></span>
+
       </button>
 
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
@@ -30,7 +42,7 @@
             </li>
             <!--Dropdown menu-->
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa fa-code"></i>
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa fa-code"></i>
                  Portfolio
               </a>
               <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
@@ -40,10 +52,10 @@
             </li>
             <!---->
             <li class="nav-item">
-              <a class="nav-link active" href="about.html"><i class="fa fa-fw fa-user"></i> About</a>
+              <a class="nav-link" href="about.html"><i class="fa fa-fw fa-user"></i> About</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link active" href="contact.html"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+            <li id="contact-pills" class="nav-item">
+                <a class="nav-link" href="contact.html"><i class="fa fa-fw fa-envelope"></i> Contact</a>
               </li>     
           </ul>
       </div>
@@ -61,11 +73,15 @@
                     </p>
                     <p>
                     If you would like to discuss a project or get in contact with me, please email me or use the contact form.</p>
-                    <a href="./contact.html"><button type="button" class="btn btn-primary btn-lg">Contact &#8594;</button></a>
+
+                    <!--CONTACT BUTTON-->
+                    <a href="./contact.html">
+                      <button type="button" id="button-effect" class="btn btn-primary btn-lg">Contact &#8594;</button>
+                    </a>
                 </div> 
 
                 <div class="col-sm-12 col-lg-6">
-                  <img src="./images/web-development.jpg" alt="Animated web developer working on computer - Abstract vector created by vectorjuice - www.freepik.com" class="w-100 p-3 mx-auto d-block">
+                  <img src="./images/web-development.jpg" alt="Animated computer - Abstract vector created by vectorjuice - www.freepik.com" class="w-100 p-3 mx-auto d-block">
                 </div>
             </div>
         </div>
@@ -75,8 +91,7 @@
     <footer class="bg-light text-lg-start">
       <!-- Copyright -->
       <div class=" col text-center p-4" style="background-color: rgba(0, 0, 0, 0.2);">
-        © 2022 Copyright:
-        <a class="text-dark" href="https://a.oneill.com/">A.ONeill.com</a>
+        <a class="text-dark" href="https://a.oneill.com/">By: Aidan ONeill - A.ONeill.com</a>
 
         <!--Icons-->
         <div id="social-container">
